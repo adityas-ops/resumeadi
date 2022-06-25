@@ -33,3 +33,21 @@
 .right img {
   width: 400px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  display: flex;
+    gap: 20px;
+    text-align: end;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .heading {
+    font-size: 3rem;
+    line-height: 2.1rem;
+ 
+  }
+}
+  
